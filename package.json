@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "studio": "npx prisma studio"
+    "studio": "npx prisma studio",
+    "start": "node server.js"
   },
   "keywords": [
     "Banco de Dados",
@@ -16,10 +17,18 @@
   "license": "MIT",
   "description": "Atividade de backend sobre Harry Potter com banco de dados",
   "dependencies": {
-    "@prisma/client": "^6.17.1",
+    "@prisma/client": "^6.18.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
-    "prisma": "^6.17.1"
-  }
+    "prisma": "^6.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaclara44/Backend-Harry-Potter-e-banco-de-dados.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariaclara44/Backend-Harry-Potter-e-banco-de-dados/issues"
+  },
+  "homepage": "https://github.com/mariaclara44/Backend-Harry-Potter-e-banco-de-dados#readme"
 }
